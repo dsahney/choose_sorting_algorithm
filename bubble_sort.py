@@ -5,7 +5,7 @@ def bubble_sort(L):
     Return a list, L, that is sorted from least to greatest value.
     >>> bubble_sort([2, 1, 4, 6, 2, 3])
     [1, 2, 2, 3, 4, 6]
-    >>> bubble sort([-1, -4, 0, 3, 2, -10, 1])
+    >>> bubble_sort([-1, -4, 0, 3, 2, -10, 1])
     [-10, -4, -1, 0, 1, 2, 3]
     '''
     x = len(L) - 1

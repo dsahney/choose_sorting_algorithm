@@ -9,11 +9,10 @@ def bubble_sort(L):
     [-10, -4, -1, 0, 1, 2, 3]
     '''
     x = len(L) - 1
-    
     while x != 0:
         for i in range(end):
             if L[i] > L[i + 1]:
                 L[i], L[i + 1] = L[i + 1], L[i]
-
         x -= 1
-    
+        
+    return L
